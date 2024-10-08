@@ -10,6 +10,7 @@
   display: block;
   width: 100%;
   border-bottom: 1px solid #eee;
+  background-color: #fff;
   z-index: 999;
   transition: all 0.2s;
 }
