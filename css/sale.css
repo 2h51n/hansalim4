@@ -89,16 +89,16 @@
   margin-bottom: 10px;
 }
 /* 홀수를 왼쪽 */
-.new-right .new-box:nth-child(2n + 1) {
+.new-right .new-box:nth-child(2n + 1){
   float: left;
 }
 /* 짝수를 오른쪽 */
-.new-right .new-box:nth-child(2n) {
+.new-right .new-box:nth-child(2n){
   float: right;
 }
 
 /* 추천물품 */
-.recommend {
+.recommend{
   position: relative;
   display: block;
   background-color: #fff8fa;
@@ -115,19 +115,19 @@
 }
 
 /* 브랜드관 */
-.brand {
+.brand{
   position: relative;
   display: block;
   background-color: #f3f9f0;
 }
-.brand .slide-control {
+.brand .slide-control{
   margin-top: 25px;
 }
-.brand-slide {
-  position: relative;
-  display: block;
+.brand-slide{
+position: relative;
+display: block;
 }
-.brand-box {
+.brand-box{
   position: relative;
   display: block;
   width: 285px;
@@ -167,7 +167,7 @@
   border-right: 1px solid #e3e3e3;
   float: left;
 }
-.brand-info > li:last-child {
+.brand-info > li:last-child{
   border: 0;
 }
 
@@ -184,27 +184,27 @@
   font-size: 16px;
   font-weight: 700;
 }
-.brand .section-bt {
+.brand .section-bt{
   margin-top: 20px;
 }
 /* 배너 */
-.banner {
+.banner{
   position: relative;
   display: block;
   padding-bottom: 0;
 }
-.banner-slide {
+.banner-slide{
   position: relative;
   display: block;
 }
 
-.banner-slide a {
+.banner-slide a{
   position: relative;
   display: block;
 }
 
 .banner .slide-prev,
-.banner .slide-next {
+.banner .slide-next{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -216,13 +216,13 @@
   z-index: 9;
 }
 
-.banner .slide-prev {
+.banner .slide-prev{
   background: url("../images/banner_arrow.png") no-repeat;
   background-position: 0 -34px;
   left: 20px;
 }
 
-.banner .slide-next {
+.banner .slide-next{
   right: 20px;
   background: url("../images/banner_arrow.png") no-repeat;
   transform: translateY(-50%) rotateY(180deg);
@@ -230,6 +230,6 @@
 }
 
 .banner .slide-prev:hover,
-.banner .slide-next:hover {
+.banner .slide-next:hover{
   background-position: 0 0;
 }

@@ -1,4 +1,7 @@
 @charset "utf-8";
+.wrap.active{
+padding-top: calc(128px - 61px);
+}
 .header.active{
   top: -61px;
 }
@@ -10,9 +13,9 @@
   display: block;
   width: 100%;
   border-bottom: 1px solid #eee;
-  background-color: #fff;
   z-index: 999;
   transition: all 0.2s;
+  background-color: #fff;
 }
 .header-top {
   position: relative;
@@ -530,6 +533,12 @@ display: none;
   position: relative;
   display: block;
   float: left;
+}
+.search-txt{
+  position: relative;
+  display: block;
+  width: 320px;
+  height: 40px;
   background-color: #f7f7f7;
   border-radius: 20px;
   padding-left: 20px;
@@ -538,14 +547,14 @@ display: none;
   line-height: 40px;
   font-size: 13px;
 }
-.search-form:focus{
+.search-txt:focus{
   background-color: #fff;
   border: 1px solid #76bd42;
-  color:#333
+  color: #333;
 }
 .search-bt{
   position: absolute;
-  right: 0;
+  right: 20px;
   top: 50%;
   transform: translateY(-50%);
   width: 18px;
@@ -561,11 +570,16 @@ display: none;
   display: block;
   width: 30px;
   height: 30px;
-  background: url("../images/btnCart.png")no-repeat;
+  background: url("../images/btnCart.png") no-repeat;
   float: left;
+  margin-left: 25px;
   margin-top: 6px;
 }
 .bucket-count{
+  position: absolute;
+  right: -4px;
+  top: -7px;
+  display: block;
   width: 18px;
   height: 18px;
   border-radius: 50px;
